@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>חנייה - פתיחת שער בקלות</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+
+        body {
+            background-color: #f8fafc;
+            color: #1e293b;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
+            overflow: hidden;
+            border: 1px solid #e2e8f0;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
+            color: #ffffff;
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: 480px) {
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .feature-card {
+            background: #f1f5f9;
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid #e2e8f0;
+        }
+
+        .feature-card h3 {
+            font-size: 1.1rem;
+            color: #1e3a8a;
+            margin-bottom: 8px;
+        }
+
+        .feature-card p {
+            font-size: 0.95rem;
+            color: #475569;
+            line-height: 1.4;
+        }
+
+        .download-box {
+            text-align: center;
+            background: #eff6ff;
+            border: 2px dashed #2563eb;
+            padding: 25px;
+            border-radius: 12px;
+        }
+
+        .download-box h2 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            color: #1e293b;
+        }
+
+        .download-box p {
+            font-size: 0.95rem;
+            color: #64748b;
+            margin-bottom: 20px;
+        }
+
+        .btn-download {
+            display: inline-block;
+            background-color: #2563eb;
+            color: #ffffff;
+            font-size: 1.1rem;
+            font-weight: 600;
+            padding: 14px 32px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.2s ease, transform 0.1s ease;
+            box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.2);
+        }
+
+        .btn-download:hover {
+            background-color: #1d4ed8;
+            transform: translateY(-1px);
+        }
+
+        .btn-download:active {
+            transform: translateY(0);
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.85rem;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>🅿️ חנייה - פתח שער</h1>
+            <p>פתיחת שערי חנייה בלחיצה אחת - מותאם במיוחד לנהיגה</p>
+        </div>
+
+        <div class="content">
+            <div class="features">
+                <div class="feature-card">
+                    <h3>🚗 נוח לנהיגה</h3>
+                    <p>כפתורים גדולים וברורים המאפשרים תפעול מהיר ובטוח מתוך הרכב.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>⚡ הגדרה קלה</h3>
+                    <p>ניהול מספר שערים, עריכה מהירה בלחיצה ארוכה וממשק בעברית.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🔊 משוב ברור</h3>
+                    <p>צליל אישור לאחר הפעלת החיוג לוודאות מלאה בנהיגה.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📱 סנכרון לרכב</h3>
+                    <p>עבודה חלקה מול מערכת המולטימדיה והבלוטוס ברכב.</p>
+                </div>
+            </div>
+
+            <div class="download-box">
+                <h2>הורדת האפליקציה</h2>
+                <p>הורידו את קובץ ה-APK ישירות למכשיר האנדרואיד שלכם</p>
+                <a href="https://raw.githubusercontent.com/ab5547ab/new/refs/heads/main/app-debug.apk" class="btn-download">
+                    הורד APK עכשיו
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        אפליקציית חנייה - פתח שער | קובץ התקנה ישיר לאנדרואיד
+    </div>
+
+</body>
+</html>

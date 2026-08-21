@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1565C0</color>
+    <color name="accent">#FF6D00</color>
+
+    <color name="background">#F2F5F9</color>
+    <color name="surface">#FFFFFF</color>
+
+    <color name="text_primary">#1B1F24</color>
+    <color name="text_secondary">#5F6B7A</color>
+
+    <color name="gate_button_bg">#FFFFFF</color>
+    <color name="gate_button_ripple">#E3F2FD</color>
+
+    <color name="success">#2E7D32</color>
+    <color name="error">#D32F2F</color>
+</resources>

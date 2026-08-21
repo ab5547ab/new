@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">חנייה - פתח שער</string>
+    <string name="settings">הגדרות</string>
+    <string name="edit_gate">עריכת שער</string>
+    <string name="add_gate">הוסף שער חדש</string>
+    <string name="gate_name_hint">שם השער</string>
+    <string name="phone_hint">מספר טלפון</string>
+    <string name="save">שמור</string>
+    <string name="delete">מחק</string>
+    <string name="cancel">ביטול</string>
+    <string name="add">הוסף</string>
+    <string name="calling_to">מחייג אל %1$s...</string>
+    <string name="permission_needed">יש לאשר הרשאת חיוג כדי להשתמש באפליקציה</string>
+    <string name="gate_added">השער נוסף בהצלחה</string>
+    <string name="fill_all_fields">יש למלא שם ומספר טלפון</string>
+</resources>
